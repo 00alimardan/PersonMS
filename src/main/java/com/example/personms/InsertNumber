@@ -1,0 +1,49 @@
+insert into number
+values
+
+
+
+
+       (default, '+994', '457 99 99', 'AZERCELL', '010'),
+       (default, '+994', '457 99 99', 'AZERCELL', '050'),
+       (default, '+994', '457 99 99', 'AZERCELL', '051'),
+       (default, '+994', '699 12 56', 'BAKCELL',  '099'),
+       (default, '+994', '571 12 01', 'BAKCELL',  '055'),
+       (default, '+994', '700 41 18', 'BAKCELL',  '055'),
+       (default, '+994', '504 78 36', 'BAKCELL',  '055'),
+       (default, '+994', '457 99 98', 'AZERCELL', '010'),
+       (default, '+994', '255 11 11', 'NAR',      '070'),
+       (default, '+994', '255 11 11', 'NAR',      '077'),
+
+       (default, '+994', '190 25 61', 'AZERCELL', '010'),
+       (default, '+994', '181 23 55', 'AZERCELL', '010'),
+       (default, '+994', '178 10 09', 'AZERCELL', '010'),
+       (default, '+994', '214 66 89', 'AZERCELL', '050'),
+       (default, '+994', '209 44 00', 'AZERCELL', '051'),
+       (default, '+994', '190 25 61', 'BAKCELL',  '099'),
+       (default, '+994', '190 25 62', 'BAKCELL',  '099'),
+       (default, '+994', '700 67 66', 'NAR',      '070'),
+       (default, '+994', '333 69 88', 'NAR',      '070'),
+       (default, '+994', '207 41 77', 'NAR',      '077'),
+
+       (default, '+994', '901 28 12', 'AZERCELL', '010'),
+       (default, '+994', '911 34 11', 'AZERCELL', '010'),
+       (default, '+994', '990 58 87', 'AZERCELL', '050'),
+       (default, '+994', '999 10 22', 'AZERCELL', '051'),
+       (default, '+994', '900 07 09', 'BAKCELL',  '055'),
+       (default, '+994', '900 07 09', 'BAKCELL',  '099'),
+       (default, '+994', '988 01 03', 'NAR',      '077'),
+       (default, '+994', '931 99 10', 'NAR',      '077'),
+       (default, '+994', '944 78 54', 'NAR',      '070'),
+       (default, '+994', '986 00 00', 'NAR',      '070'),
+
+       (default, '+994', '845 60 60', 'AZERCELL', '010'),
+       (default, '+994', '800 10 01', 'AZERCELL', '050'),
+       (default, '+994', '866 89 98', 'AZERCELL', '051'),
+       (default, '+994', '810 78 78', 'BAKCELL',  '099'),
+       (default, '+994', '810 78 79', 'BAKCELL',  '055'),
+       (default, '+994', '809 54 41', 'BAKCELL',  '055'),
+       (default, '+994', '808 90 99', 'BAKCELL',  '055'),
+       (default, '+994', '888 88 88', 'AZERCELL', '010'),
+       (default, '+994', '801 11 08', 'NAR',      '070'),
+       (default, '+994', '822 30 03', 'NAR',      '077');

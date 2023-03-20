@@ -1,0 +1,38 @@
+insert into person
+values
+
+
+(default, '12G8KL0',  'Əli',     'Əliyev'),
+(default, '12G8KP2',  'Həsən',   'Məmmədov'),
+(default, '12X8KL0',  'Abbas',   'Cəfərli'),
+(default, 'A2X8K92',  'Əlimərdan', 'Əlimərdanov'),
+(default, 'A2X8KB3',  'Şəhanə',   'Loğmanova'),
+(default, '92X8LB3',  'Kənan',    'Hacıyev'),
+(default, '92M6LB3',  'Xəlil',    'İbrahimoğlu'),
+(default, '92M6LB4',  'Nizami',   'Gəncəvi'),
+(default, '92P6LB1',  'Nəriman',  'Səmədov'),
+(default, 'ABP6L01',  'Məhəmməd', 'Füzuli'),
+
+(default, 'AB3JL01',  'Mahmud',  'Bayramlı'),
+(default, '7B3JL01',  'Nəriman', 'Orucov'),
+(default, '7B3JLM0',  'Rəsul',   'Səmədov'),
+(default, '7Z3J9M0',  'Sultan',  'Şıxəliyev'),
+(default, '8O319M0',  'İbrahim', 'Vəziroğlu'),
+(default, '8O3B9M0',  'İsmayıl', 'Şıxlı'),
+(default, 'WL3B9M3',  'Çingiz',  'Abdullayev'),
+(default, 'YL3B9M3',  'Cəfər',   'Cabbarlı'),
+(default, 'KL9B9M3',  'Üzeyir',  'Hacıbəyli'),
+(default, 'JC919M3',  'Teymur',  'Rəcəbov'),
+
+(default, 'JC919M5',  'Xəlil',  'Səmədov'),
+(default, 'GC919M0',  'Aydan',  'Orucova'),
+(default, 'GC919Q0',  'Ayla',   'Məmmədova'),
+(default, 'GV919Q8',  'Çinarə', 'Qasımzadə'),
+(default, 'XV919Q8',  'Flora',  'Kərimova'),
+(default, 'JV919H2',  'Məhsəti', 'Gəncəvi'),
+(default, 'JV019E2',  'Gülarə',  'Rəcəbova'),
+(default, 'U1019EI',  'İlqarə',  'Rəhimova'),
+(default, 'U1019EJ',  'Hicran',  'Səlimova'),
+(default, 'GV700Q8',  'Cəmilə',  'Əbilova');
+
+
