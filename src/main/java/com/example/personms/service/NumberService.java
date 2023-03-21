@@ -10,23 +10,18 @@ import java.util.List;
 public class NumberService {
 
     private final NumberRepo repo;
-
     public NumberService(NumberRepo repo) {
         this.repo = repo;
     }
 
+
     public void save(NumberEntity entity){
         repo.save(entity);
     }
-
-
     public List<NumberEntity> getAll(){
         return repo.findAll();
     }
-
-
     public NumberEntity getById(Long id){
-
         return repo.getById(id);
     }
 }

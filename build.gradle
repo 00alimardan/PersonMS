@@ -15,14 +15,12 @@ repositories {
 dependencies {
     // spring boot
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
     // lombok
     annotationProcessor 'org.projectlombok:lombok'
     compileOnly 'org.projectlombok:lombok'
     compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.24'
-
-    //test
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
     // database
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
