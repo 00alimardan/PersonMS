@@ -19,16 +19,7 @@ public class PersonCtrl {
         this.service = service;
     }
 
-    @PostMapping("/save")
-    public void save(@RequestBody PersonEntity entity){
-        service.save(entity);
-    }
 
-
-    @PostMapping("/add/{pId}/{nId}")
-    public void addNumber(@PathVariable Long pId, @PathVariable Long nId){
-        service.addNumber(pId, nId);
-    }
 
 
     @GetMapping("/all")
@@ -49,4 +40,19 @@ public class PersonCtrl {
 
         return service.getByNumber(prefiks, number, user);
     }
+
+
+
+
+
+
+
+//    @PostMapping("/save")
+//    public void save(@RequestBody PersonEntity entity){
+//        service.save(entity);
+//    }
+//    @PostMapping("/add/{pId}/{nId}")
+//    public void addNumber(@PathVariable Long pId, @PathVariable Long nId){
+//        service.addNumber(pId, nId);
+//    }
 }

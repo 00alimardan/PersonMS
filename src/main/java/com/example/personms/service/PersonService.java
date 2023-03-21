@@ -33,20 +33,7 @@ public class PersonService {
     private static final Logger log = LoggerFactory.getLogger(PersonService.class);
 
 
-    public void save(PersonEntity entity){
 
-        repo.save(entity);
-
-    }
-    public void addNumber(Long pId, Long nId){
-        PersonEntity person = repo.getById(pId);
-        NumberEntity number = numberRepo.getById(nId);
-
-            person.getNumber().add(number);
-
-
-        repo.save(person);
-    }
 
 
 
@@ -79,4 +66,27 @@ public class PersonService {
         }
         else throw new RuntimeException();
     }
+
+
+
+
+
+
+
+
+
+//    public void save(PersonEntity entity){
+//
+//        repo.save(entity);
+//
+//    }
+//    public void addNumber(Long pId, Long nId){
+//        PersonEntity person = repo.getById(pId);
+//        NumberEntity number = numberRepo.getById(nId);
+//
+//        person.getNumber().add(number);
+//
+//
+//        repo.save(person);
+//    }
 }
